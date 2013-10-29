@@ -1,0 +1,22 @@
+<SOAP-ENV:Envelope
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SOAP-ENV:Header>
+<cwmp:ID SOAP-ENV:mustUnderstand="1">0</cwmp:ID>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<cwmp:GetParameterAttributesResponse>
+ <ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[1]">
+  <ParameterAttributeStruct>
+   <Name>InternetGatewayDevice.</Name>
+   <Notification>0</Notification>
+   <AccessList></AccessList>
+  </ParameterAttributeStruct>
+ </ParameterList>
+</cwmp:GetParameterAttributesResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

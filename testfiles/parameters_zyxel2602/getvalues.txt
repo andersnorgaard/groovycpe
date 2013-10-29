@@ -1,0 +1,1865 @@
+<SOAP-ENV:Envelope
+ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SOAP-ENV:Header>
+<cwmp:ID SOAP-ENV:mustUnderstand="1">0</cwmp:ID>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<cwmp:GetParameterValuesResponse>
+ <ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[459]">
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceSummary</Name>
+   <Value xsi:type="xsd:unsignedInt"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDeviceNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDeviceNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.ManufacturerOUI</Name>
+   <Value xsi:type="xsd:string">0002CF</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.Manufacturer</Name>
+   <Value xsi:type="xsd:string">ZyXEL</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.ModelName</Name>
+   <Value xsi:type="xsd:string">P-2602HW-D1A</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.Description</Name>
+   <Value xsi:type="xsd:string">P-2602HW-D1A</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.ProductClass</Name>
+   <Value xsi:type="xsd:string">P-2602HW-D1A</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.SerialNumber</Name>
+   <Value xsi:type="xsd:string">0002CFCF0324</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.HardwareVersion</Name>
+   <Value xsi:type="xsd:string">P-2602HW-D1A</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.SoftwareVersion</Name>
+   <Value xsi:type="xsd:string">V3.40(ADQ.7)</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion</Name>
+   <Value xsi:type="xsd:string">TI AR7 08.00.03.00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.SpecVersion</Name>
+   <Value xsi:type="xsd:string">1.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.ProvisioningCode</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.UpTime</Name>
+   <Value xsi:type="xsd:unsignedInt">2598</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.FirstUseDate</Name>
+   <Value xsi:type="xsd:dateTime">2000-01-01T23:34:15</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.DeviceInfo.DeviceLog</Name>
+   <Value xsi:type="xsd:string">0 | 01/01/2000 23:31:33 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+1 | 01/01/2000 23:28:01 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+2 | 01/01/2000 23:24:29 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+3 | 01/01/2000 23:20:57 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+4 | 01/01/2000 23:17:25 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+5 | 01/01/2000 23:13:53 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+6 | 01/01/2000 23:10:21 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+7 | 01/01/2000 23:06:49 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+8 | 01/01/2000 23:03:17 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+9 | 01/01/2000 22:59:45 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+10 | 01/01/2000 22:56:13 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+11 | 01/01/2000 22:52:41 |  |  | SIP[1] | SIP Registration Time Out by SIP:changeme
+</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.URL</Name>
+   <Value xsi:type="xsd:string">http://localhost/tacs/TACSService</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.PeriodicInformEnable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.PeriodicInformInterval</Name>
+   <Value xsi:type="xsd:unsignedInt">120</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.PeriodicInformTime</Name>
+   <Value xsi:type="xsd:dateTime">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.ParameterKey</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestURL</Name>
+   <Value xsi:type="xsd:string">http://127.0.0.1:80/CWMP/ConnectionRequest</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestUsername</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.ManagementServer.UpgradesManaged</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService</Name>
+   <Value xsi:type="xsd:string">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Layer3Forwarding.ForwardNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANConfigSecurity.ConfigPassword</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerConfigurable</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPRelay</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress</Name>
+   <Value xsi:type="xsd:string">192.168.1.33</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress</Name>
+   <Value xsi:type="xsd:string">192.168.1.64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.ReservedAddresses</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.SubnetMask</Name>
+   <Value xsi:type="xsd:string">255.255.255.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers</Name>
+   <Value xsi:type="xsd:string">0.0.0.1,0.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DomainName</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters</Name>
+   <Value xsi:type="xsd:string">192.168.1.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime</Name>
+   <Value xsi:type="xsd:int">259200</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress</Name>
+   <Value xsi:type="xsd:string">192.168.1.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask</Name>
+   <Value xsi:type="xsd:string">255.255.255.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceAddressingType</Name>
+   <Value xsi:type="xsd:string">DHCP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">true</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status</Name>
+   <Value xsi:type="xsd:string">Up</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress</Name>
+   <Value xsi:type="xsd:string">0002CFCF0324</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MaxBitRate</Name>
+   <Value xsi:type="xsd:string">100</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.DuplexMode</Name>
+   <Value xsi:type="xsd:string">Full</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">47892</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">170</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BSSID</Name>
+   <Value xsi:type="xsd:string">0002CFCF0324</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.MaxBitRate</Name>
+   <Value xsi:type="xsd:string">Auto</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Channel</Name>
+   <Value xsi:type="xsd:unsignedInt">6</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID</Name>
+   <Value xsi:type="xsd:string">obm-test</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType</Name>
+   <Value xsi:type="xsd:string">11i</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.MACAddressControlEnabled</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard</Name>
+   <Value xsi:type="xsd:string">g</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKeyIndex</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.KeyPassphrase</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPEncryptionLevel</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicEncryptionModes</Name>
+   <Value xsi:type="xsd:string">WEPEncryption</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicAuthenticationMode</Name>
+   <Value xsi:type="xsd:string">None</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAEncryptionModes</Name>
+   <Value xsi:type="xsd:string">AESEncryption</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAAuthenticationMode</Name>
+   <Value xsi:type="xsd:string">PSKAuthentication</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleChannels</Name>
+   <Value xsi:type="xsd:string">1-13</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicDataTransmitRates</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.OperationalDataTransmitRates</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleDataTransmitRates</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.RadioEnabled</Name>
+   <Value xsi:type="xsd:boolean">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoRateFallBackEnabled</Name>
+   <Value xsi:type="xsd:boolean">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalAssociations</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AssociatedDevice.1.AssociatedDeviceMACAddress</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AssociatedDevice.1.AssociatedDeviceIPAddress</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AssociatedDevice.1.AssociatedDeviceAuthenticationState</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.1.WEPKey</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.2.WEPKey</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.3.WEPKey</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.4.WEPKey</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.PreSharedKey</Name>
+   <Value xsi:type="xsd:unsignedInt"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.AssociatedDeviceMACAddress</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType</Name>
+   <Value xsi:type="xsd:string">DSL</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">1083</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">11891</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus</Name>
+   <Value xsi:type="xsd:string">Up</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">1722190</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">85298</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">1808</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">1251</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.MaximumActiveConnections</Name>
+   <Value xsi:type="xsd:unsignedInt">8</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.NumberOfActiveConnections</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Status</Name>
+   <Value xsi:type="xsd:string">Up</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ModulationType</Name>
+   <Value xsi:type="xsd:string">Unavailable</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.LineEncoding</Name>
+   <Value xsi:type="xsd:string">DMT</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamCurrRate</Name>
+   <Value xsi:type="xsd:unsignedInt">1083</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamCurrRate</Name>
+   <Value xsi:type="xsd:unsignedInt">11891</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamMaxRate</Name>
+   <Value xsi:type="xsd:unsignedInt">1083</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamMaxRate</Name>
+   <Value xsi:type="xsd:unsignedInt">11891</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamNoiseMargin</Name>
+   <Value xsi:type="xsd:int">5</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamNoiseMargin</Name>
+   <Value xsi:type="xsd:int">9</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamAttenuation</Name>
+   <Value xsi:type="xsd:int">33</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamAttenuation</Name>
+   <Value xsi:type="xsd:int">19</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamPower</Name>
+   <Value xsi:type="xsd:int">14</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamPower</Name>
+   <Value xsi:type="xsd:int">22</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATURVendor</Name>
+   <Value xsi:type="xsd:string">ZyXEL</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATURCountry</Name>
+   <Value xsi:type="xsd:string">886</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ReceiveBlocks</Name>
+   <Value xsi:type="xsd:unsignedInt">149227</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.TransmitBlocks</Name>
+   <Value xsi:type="xsd:unsignedInt">149227</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.CellDelin</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.LinkRetrain</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.FECErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">5786</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCFECErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.HECErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCHECErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">781</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.CRCErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">4</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCCRCErrors</Name>
+   <Value xsi:type="xsd:unsignedInt">1202</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.LinkStatus</Name>
+   <Value xsi:type="xsd:string">Up</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.LinkType</Name>
+   <Value xsi:type="xsd:string">PPPoA</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.AutoConfig</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ModulationType</Name>
+   <Value xsi:type="xsd:string">Unavailable</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.DestinationAddress</Name>
+   <Value xsi:type="xsd:string">PVC:0/35</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMEncapsulation</Name>
+   <Value xsi:type="xsd:string">VCMUX</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMAAL</Name>
+   <Value xsi:type="xsd:string">AAL5</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMTransmittedBlocks</Name>
+   <Value xsi:type="xsd:unsignedInt">1808</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMReceivedBlocks</Name>
+   <Value xsi:type="xsd:unsignedInt">1251</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMQoS</Name>
+   <Value xsi:type="xsd:string">UBR</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMPeakCellRate</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMMaximumBurstSize</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMSustainableCellRate</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus</Name>
+   <Value xsi:type="xsd:string">Connected</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PossibleConnectionTypes</Name>
+   <Value xsi:type="xsd:string">IP_Routed</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType</Name>
+   <Value xsi:type="xsd:string">IP_Routed</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name</Name>
+   <Value xsi:type="xsd:string">MyISP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Uptime</Name>
+   <Value xsi:type="xsd:unsignedInt">2527</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.LastConnectionError</Name>
+   <Value xsi:type="xsd:string">ERROR_NONE</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RSIPAvailable</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.NATEnabled</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username</Name>
+   <Value xsi:type="xsd:string">testuser</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPEncryptionProtocol</Name>
+   <Value xsi:type="xsd:string">None</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPCompressionProtocol</Name>
+   <Value xsi:type="xsd:string">None</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPAuthenticationProtocol</Name>
+   <Value xsi:type="xsd:string">CHAP/PAP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RemoteIPAddress</Name>
+   <Value xsi:type="xsd:string">10.10.10.10</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSEnabled</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSServers</Name>
+   <Value xsi:type="xsd:string">0.0.0.1,0.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MACAddress</Name>
+   <Value xsi:type="xsd:string">0002CFCF0324</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.TransportType</Name>
+   <Value xsi:type="xsd:string">PPPoA</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoEServiceName</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger</Name>
+   <Value xsi:type="xsd:string">AlwaysOn</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RouteProtocolRx</Name>
+   <Value xsi:type="xsd:string">Off</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEcho</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEchoRetry</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMappingNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">1722190</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">85298</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">1808</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">1251</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTATPds</Name>
+   <Value xsi:type="xsd:unsignedInt">22</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTATPus</Name>
+   <Value xsi:type="xsd:unsignedInt">14</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.QLNpsds</Name>
+   <Value xsi:type="xsd:string">255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,183,182,180,167,174,178,177,175,161,162,167,169,171,171,170,169,165,164,163,162,163,165,165,167,164,163,159,162,161,160,159,158,157,157,155,153,152,151,151,150,149,147,147,145,144,142,140,141,139,138,137,137,135,135,134,133,133,132,132,132,132,131,132,131,InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.SNRpsds</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.SNRpsds</Name>
+   <Value xsi:type="xsd:string">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,104,105,108,110,108,109,116,115,115,116,121,121,121,122,128,127,127,127,129,129,127,128,127,133,135,134,133,135,134,133,133,133,134,133,134,133,133,133,132,126,127,125,128,127,127,122,115,115,116,110,110,116,111,109,115,116,122,121,120,126,126,121,126,126,127,126,132,128,134,134,133,134,134,134,139,139,138,134,139,141,140,139,139,146,146,145,147,151,151,151,152,147,146,1InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.BITSpsds</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.BITSpsds</Name>
+   <Value xsi:type="xsd:string">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,7,7,7,7,7,7,6,5,5,5,4,4,5,4,4,5,5,6,6,6,7,7,6,7,7,7,7,8,7,8,8,8,8,8,8,9,9,9,8,9,9,9,9,9,10,10,10,10,11,11,11,11,10,10,10,10,10,10,10,10,10,10,9,9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,9,9,9,10,10,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,8,9,8,8,8,8,8,8,8,8,8,8,8,8,8,8,7,7,7,InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.GAINSpsds</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.GAINSpsds</Name>
+   <Value xsi:type="xsd:string">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,428,527,506,538,524,440,419,561,466,447,436,512,471,445,445,569,497,498,445,476,452,409,437,408,553,583,570,525,570,560,516,524,527,530,517,537,547,550,585,590,406,428,409,480,512,618,543,422,474,563,428,453,621,441,393,498,465,563,481,430,589,572,423,556,529,512,454,567,428,556,549,499,525,471,442,556,550,498,528,479,517,461,426,396,531,565,438,463,564,544,537,569,428,437,InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState</Name>
+   <Value xsi:type="xsd:string">None</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.Interface</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.Host</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.Timeout</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.DataBlockSize</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.DSCP</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.SuccessCount</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.FailureCount</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.NTPServer1</Name>
+   <Value xsi:type="xsd:string">NTP server is not used</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.NTPServer2</Name>
+   <Value xsi:type="xsd:string">ntp1.cs.wisc.edu</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.NTPServer3</Name>
+   <Value xsi:type="xsd:string">tick.usno.navy.mil</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.NTPServer4</Name>
+   <Value xsi:type="xsd:string">ntp2.cs.wisc.edu</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.NTPServer5</Name>
+   <Value xsi:type="xsd:string">tock.usno.navy.mil</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.CurrentLocalTime</Name>
+   <Value xsi:type="xsd:string">2000-01-01T23:34:16</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.LocalTimeZone</Name>
+   <Value xsi:type="xsd:string">+00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.LocalTimeZoneName</Name>
+   <Value xsi:type="xsd:string">(GMT-12:00) International Date Line West</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.DaylightSavingsUsed</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.DaylightSavingsStart</Name>
+   <Value xsi:type="xsd:string">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Time.DaylightSavingsEnd</Name>
+   <Value xsi:type="xsd:string">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceServiceNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfileNumberOfEntries</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxProfileCount</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxLineCount</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxSessionsPerLine</Name>
+   <Value xsi:type="xsd:string">4</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxSessionCount</Name>
+   <Value xsi:type="xsd:unsignedInt">4</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SignalingProtocols</Name>
+   <Value xsi:type="xsd:string">SIP/2.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Regions</Name>
+   <Value xsi:type="xsd:string">USA, JAPAN, TAIWAN, AUSTRIA, BELGIUM, BULGARIA, CZECH, DENMARK, FINLAND, FRANCE, HUNGARY, ICELAND, ITALY, LUXEMBOURG, NETHERLAND, NORWAY, POLAND, PORTUGAL, SLOVAKIA, SPAIN, SWEDEN, SWITZERLAND, UK, GERMANY, GREECE, Australia, New Zealand, Hong Kong, Singapore, Morocco, Ireland, Malaysia, Russia, Thailand, Israel, UAE, China, Ukraine, South Africa, Korea, Philippine, India, Turkey</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.RTCP</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SRTP</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.RTPRedundancy</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.DSCPCoupled</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.EthernetTaggingCoupled</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.PSTNSoftSwitchOver</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.FaxT38</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.FaxPassThrough</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.ModemPassThrough</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.ToneGeneration</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.RingGeneration</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.NumberingPlan</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.ButtonMap</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.VoicePortTests</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Role</Name>
+   <Value xsi:type="xsd:string">UserAgent</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Extensions</Name>
+   <Value xsi:type="xsd:string">REFER, INFO</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Transports</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.URISchemes</Name>
+   <Value xsi:type="xsd:string">tel</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.EventSubscription</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.ResponseMap</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.Codec</Name>
+   <Value xsi:type="xsd:string">G.711MuLaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.Codec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.Codec</Name>
+   <Value xsi:type="xsd:string">G.729</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">8</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Enable</Name>
+   <Value xsi:type="xsd:string">Enabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Reset</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.NumberOfLines</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Name</Name>
+   <Value xsi:type="xsd:string">VoiceProfile-01</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SignalingProtocol</Name>
+   <Value xsi:type="xsd:string">SIP/2.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.MaxSessions</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DTMFMethod</Name>
+   <Value xsi:type="xsd:string">RFC2833</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DTMFMethodG711</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Enable</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Reset</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.NumberOfLines</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Name</Name>
+   <Value xsi:type="xsd:string">VoiceProfile-02</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SignalingProtocol</Name>
+   <Value xsi:type="xsd:string">SIP/2.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.MaxSessions</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.DTMFMethod</Name>
+   <Value xsi:type="xsd:string">RFC2833</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.DTMFMethodG711</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServer</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServerPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServerTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServer</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServerPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServerTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentDomain</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxy</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxyPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.Organization</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">3600</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegisterExpires</Name>
+   <Value xsi:type="xsd:unsignedInt">180</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegisterRetryInterval</Name>
+   <Value xsi:type="xsd:unsignedInt">180</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UseCodecPriorityInSDPResponse</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.ProxyServer</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.ProxyServerPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.ProxyServerTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegistrarServer</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegistrarServerPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegistrarServerTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.UserAgentDomain</Name>
+   <Value xsi:type="xsd:string">127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.UserAgentPort</Name>
+   <Value xsi:type="xsd:unsignedInt">5060</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.UserAgentTransport</Name>
+   <Value xsi:type="xsd:string">UDP</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.OutboundProxy</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.OutboundProxyPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.Organization</Name>
+   <Value xsi:type="xsd:string">Unsupport</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegistrationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">3600</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegisterExpires</Name>
+   <Value xsi:type="xsd:unsignedInt">180</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.RegisterRetryInterval</Name>
+   <Value xsi:type="xsd:unsignedInt">180</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.SIP.UseCodecPriorityInSDPResponse</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.LocalPortMin</Name>
+   <Value xsi:type="xsd:unsignedInt">50000</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.LocalPortMax</Name>
+   <Value xsi:type="xsd:unsignedInt">65535</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.DSCPMark</Name>
+   <Value xsi:type="xsd:unsignedInt">160</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.TelephoneEventPayloadType</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.RTP.LocalPortMin</Name>
+   <Value xsi:type="xsd:unsignedInt">50000</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.RTP.LocalPortMax</Name>
+   <Value xsi:type="xsd:unsignedInt">65535</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.RTP.DSCPMark</Name>
+   <Value xsi:type="xsd:unsignedInt">160</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.RTP.TelephoneEventPayloadType</Name>
+   <Value xsi:type="xsd:string">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Enable</Name>
+   <Value xsi:type="xsd:string">Enabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.DirectoryNumber</Name>
+   <Value xsi:type="xsd:string">changeme</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Status</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallState</Name>
+   <Value xsi:type="xsd:string">Disconnecting</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.PhyReferenceList</Name>
+   <Value xsi:type="xsd:string">Disconnecting1,2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Enable</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.DirectoryNumber</Name>
+   <Value xsi:type="xsd:string">changeme</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Status</Name>
+   <Value xsi:type="xsd:string">Disabled</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.CallState</Name>
+   <Value xsi:type="xsd:string">Disconnecting</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.PhyReferenceList</Name>
+   <Value xsi:type="xsd:string">Disconnecting1,2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.TransmitGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.ReceiveGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationEnable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationInUse</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationTail</Name>
+   <Value xsi:type="xsd:string">16</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.VoiceProcessing.TransmitGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.VoiceProcessing.ReceiveGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.VoiceProcessing.EchoCancellationEnable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.VoiceProcessing.EchoCancellationInUse</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.VoiceProcessing.EchoCancellationTail</Name>
+   <Value xsi:type="xsd:string">16</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.3.Line.1.VoiceProcessing.TransmitGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.3.Line.1.VoiceProcessing.ReceiveGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.3.Line.1.VoiceProcessing.EchoCancellationEnable</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.3.Line.1.VoiceProcessing.EchoCancellationInUse</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.3.Line.1.VoiceProcessing.EchoCancellationTail</Name>
+   <Value xsi:type="xsd:string">16</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.4.Line.1.VoiceProcessing.TransmitGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.4.Line.1.VoiceProcessing.ReceiveGain</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.4.Line.1.VoiceProcessing.EchoCancellationEnable</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.4.Line.1.VoiceProcessing.EchoCancellationInUse</Name>
+   <Value xsi:type="xsd:boolean">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.4.Line.1.VoiceProcessing.EchoCancellationTail</Name>
+   <Value xsi:type="xsd:string">16</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthUserName</Name>
+   <Value xsi:type="xsd:string">changeme</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthPassword</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.URI</Name>
+   <Value xsi:type="xsd:string">sip:changeme@127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.SIP.AuthUserName</Name>
+   <Value xsi:type="xsd:string">changeme</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.SIP.AuthPassword</Name>
+   <Value xsi:type="xsd:string"></Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.SIP.URI</Name>
+   <Value xsi:type="xsd:string">sip:changeme@127.0.0.1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitCodec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveCodec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitSilenceSuppression</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveSilenceSuppression</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitPacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.TransmitCodec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.ReceiveCodec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.TransmitBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.ReceiveBitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.TransmitSilenceSuppression</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.ReceiveSilenceSuppression</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.TransmitPacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Codec</Name>
+   <Value xsi:type="xsd:string">G.711MuLaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Codec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Codec</Name>
+   <Value xsi:type="xsd:string">G.729</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">8</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.Codec</Name>
+   <Value xsi:type="xsd:string">G.711MuLaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.1.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.Codec</Name>
+   <Value xsi:type="xsd:string">G.711ALaw</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">64</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.2.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.Codec</Name>
+   <Value xsi:type="xsd:string">G.729</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.BitRate</Name>
+   <Value xsi:type="xsd:unsignedInt">8</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.EntryID</Name>
+   <Value xsi:type="xsd:unsignedInt">3</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.PacketizationPeriod</Name>
+   <Value xsi:type="xsd:unsignedInt">20</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.SilenceSuppression</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.Enable</Name>
+   <Value xsi:type="xsd:boolean">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Codec.List.3.Priority</Name>
+   <Value xsi:type="xsd:unsignedInt">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.1.SessionStartTime</Name>
+   <Value xsi:type="xsd:dateTime">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.1.SessionDuration</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.1.FarEndIPAddress</Name>
+   <Value xsi:type="xsd:string">0.0.0.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.1.FarEndUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.1.LocalUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.2.SessionStartTime</Name>
+   <Value xsi:type="xsd:dateTime">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.2.SessionDuration</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.2.FarEndIPAddress</Name>
+   <Value xsi:type="xsd:string">0.0.0.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.2.FarEndUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Session.2.LocalUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.1.SessionStartTime</Name>
+   <Value xsi:type="xsd:dateTime">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.1.SessionDuration</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.1.FarEndIPAddress</Name>
+   <Value xsi:type="xsd:string">0.0.0.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.1.FarEndUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.1.LocalUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.2.SessionStartTime</Name>
+   <Value xsi:type="xsd:dateTime">0000-00-00T00:00:00</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.2.SessionDuration</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.2.FarEndIPAddress</Name>
+   <Value xsi:type="xsd:string">0.0.0.0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.2.FarEndUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Session.2.LocalUDPPort</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ResetStatistics</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsLost</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Overruns</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Underruns</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsAnswered</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsConnected</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsFailed</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsAttempted</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsAnswered</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsConnected</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsFailed</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.CallsDropped</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.TotalCallTime</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.ResetStatistics</Name>
+   <Value xsi:type="xsd:boolean">false</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.PacketsSent</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.PacketsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.BytesSent</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.BytesReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.PacketsLost</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.Overruns</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.Underruns</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.IncomingCallsReceived</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.IncomingCallsAnswered</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.IncomingCallsConnected</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.IncomingCallsFailed</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.OutgoingCallsAttempted</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.OutgoingCallsAnswered</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.OutgoingCallsConnected</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.OutgoingCallsFailed</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.CallsDropped</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.2.Line.1.Stats.TotalCallTime</Name>
+   <Value xsi:type="xsd:unsignedInt">0</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.PhyPort</Name>
+   <Value xsi:type="xsd:string">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.InterfaceID</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Description</Name>
+   <Value xsi:type="xsd:string">Outgoing call map to SIP:1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.X_001349_OutgoingCallMapping</Name>
+   <Value xsi:type="xsd:string">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.PhyPort</Name>
+   <Value xsi:type="xsd:string">2</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.InterfaceID</Name>
+   <Value xsi:type="xsd:unsignedInt">1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Description</Name>
+   <Value xsi:type="xsd:string">Outgoing call map to SIP:1</Value>
+  </ParameterValueStruct>
+  <ParameterValueStruct>
+   <Name>InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.X_001349_OutgoingCallMapping</Name>
+   <Value xsi:type="xsd:string">1</Value>
+  </ParameterValueStruct>
+ </ParameterList>
+</cwmp:GetParameterValuesResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

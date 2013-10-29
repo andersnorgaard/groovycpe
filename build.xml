@@ -1,0 +1,71 @@
+<project name="groovycpe" default="compile" basedir=".">
+
+	<!-- Buildfile for groovycpe. The project requires (Open)JDK6  -->
+
+	<property name="generated.dir" value="tmp"/>
+	<property name="schema.dir" value="etc"/>
+	<property name="build.dir" value="bin-groovy"/>
+	
+	<path id="class.path">
+		<fileset dir="lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	
+	<path id="class.run.path">
+		<path refid="class.path"/>
+		<path location="${build.dir}"/>
+	</path>
+	
+	<taskdef name="xjc" classname="com.sun.tools.xjc.XJC2Task">
+		<classpath>
+			<path refid="class.path"/>
+			<fileset dir="xjcbuildlib" includes="*.jar" />
+		</classpath>
+	</taskdef>	
+
+	<!-- Use this to regenerate a jar with JAXB classes for the TR069 schema. -->
+	<target name="compile-xjc" description="Generates the java classes based on XSD files">
+		<mkdir dir="${generated.dir}" />
+		<xjc destdir="${generated.dir}" removeOldOutput="true" extension="true">	            
+			<schema file="${schema.dir}/cwmp-1-0.nofixed.xsd"/>
+		</xjc>
+		<javac srcdir="${generated.dir}" destdir="${generated.dir}" listfiles="yes" debug="true">
+			<classpath>
+				<path refid="class.path"/>
+			</classpath>
+		</javac>
+				
+		<jar destfile="lib/dslforum.cwmp-1.0.jar" basedir="${generated.dir}" />		
+	</target>
+
+	<taskdef name="groovyc"
+         classname="org.codehaus.groovy.ant.Groovyc"
+         classpathref="class.path"/>
+
+	<target name="compile">
+		<groovyc srcdir="src" destdir="${build.dir}"/>
+	</target>
+
+	<target name="run">
+		<java dir="${basedir}" classname="org.groovycpe.CpeServer" fork="true" classpathref="class.run.path" />
+	</target>
+
+
+	<target name="compile-test">
+		<groovyc srcdir="test" destdir="${build.dir}" classpathref="class.run.path"/>
+	</target>
+
+	<target name="run-test">
+		<property name="cp" refid="class.run.path"/>
+		<echo message="Classpath is ${cp}"/>
+		<java dir="${build.dir}" classname="org.groovycpe.GroovyCpeTestSuite" fork="true" classpathref="class.run.path"/>
+	</target>
+	
+	<target name="clean">
+		<delete>
+			<fileset dir="${build.dir}/org/groovycpe" includes="*.class"/>
+		</delete>
+	</target>
+</project>
+
